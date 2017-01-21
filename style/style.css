@@ -15,17 +15,27 @@ body{
 #title{
     text-align: center;
     position: fixed;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     font-size: 200%;
-    color: white;
-    display: none;
+    color: black;
+    
 }
-.section1{
-  background: url("Images/test.jpg") no-repeat fixed;
+#buttons{
+    text-align: center;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 100%;
+    color: black;
+}
+#section1{
+    background: url("Images/test.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    display: block;
 }
