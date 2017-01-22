@@ -1,7 +1,7 @@
 body{
   font-family: 'Quicksand', sans-serif;
   margin: 0 auto;
-  color: red;
+  color: #666666;
 }
 #title{
     text-align: center;
@@ -25,6 +25,8 @@ body{
     font-size: 140%;
     padding-right: 10vh;
     animation-delay: 1.2s;
+    background: transparent;
+    
 }
 #button2{
     text-align: center;
@@ -32,6 +34,7 @@ body{
     font-size: 140%;
     padding-right: 5vh;
     animation-delay: 1.4s;
+    background: transparent;
 }
 #button3{
     text-align: center;
@@ -39,6 +42,7 @@ body{
     font-size: 140%;
     padding-left: 5vh;
     animation-delay: 1.6s;
+    background: transparent;
 }
 #button4{
     text-align: center;
@@ -46,6 +50,7 @@ body{
     font-size: 140%;
     padding-left: 10vh;
     animation-delay: 1.8s;
+    background: transparent;
 }
 #section1{
     background: url("Images/test.jpeg") no-repeat;
@@ -56,14 +61,39 @@ body{
 }
 .icon-background{
     color: transparent;
-    background-color: transparent;
-    border: 1px solid #f2f2f2;
+    background: none;
+    border: 1px solid #666666;
     border-radius: 50%;
+     -webkit-transition: background 2s; /* For Safari 3.1 to 6.0 */
+    transition: background 2s;
 }
-#hover:hover{
-    background-size: 200%;
+.icon-background:hover{
+    color: transparent;
+    background: black;
+    opacity: .9;
 }
 /*SECTION 2*/
 #section2{
     background-color: black;
+}
+.portfolioImage{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+     -webkit-transition: filter 1s; /* For Safari 3.1 to 6.0 */
+    transition: filter 1s;
+
+}
+.portfolioImage:hover{
+    -webkit-filter: grayscale(10%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(10%);
+}
+#title2{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 300%;
+    color:white;
+    z-index: 3;
 }
