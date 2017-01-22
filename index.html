@@ -2,7 +2,6 @@
     <head>
     <!-- IMPORT JQUERY-->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <script src="jqueryui/jquery-ui.js"></script>
       <!-- FULL PAGE JS -->
         <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/jquery.fullPage.css" />
         
@@ -14,14 +13,12 @@
 
         <script type="text/javascript" src="node_modules/fullpage.js/dist/jquery.fullPage.js"></script>
         <!-- FONT -->
-      <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
       <!-- CSS -->
 
       <link rel="stylesheet" type="text/css" href="style/style.css"/>
-      <link rel="stylesheet" type="text/css" href="jqueryui/jquery-ui.css"/>
-      <link rel="stylesheet" type="text/css" href="jqueryui/jquery-ui.structure.css"/>
-      <link rel="stylesheet" type="text/css" href="jqueryui/jquery-ui.theme.css"/>
       <script type="text/javascript">
         $(document).ready(function(){
             $('#fullpage').fullpage({
@@ -29,23 +26,52 @@
             });      
         });
       </script>
+      <title>KV Ghumaan</title>
     </head>    
     <body>
         <div id="fullpage">
             <div class="section" id="section1">
                 <h1 id="title" class="animated fadeInUp">KV Ghumaan</h1>
-                <div id="buttons" class="animated fadeInUp">
-                    <div id="button">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <div id="buttons">
+                        <div id="button1" class="animated fadeInUp">
+                            <span class="fa-stack fa-lg" id="hover">
+                                <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                <i class="fa fa-file fa-stack-1x"></i>
+                            </span>
+                            <br />
+                            Resume
+                        </div>
+                        <div id="button2" class="animated fadeInUp">
+                            <span class="fa-stack fa-lg" id="hover">
+                                <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                <i class="fa fa-linkedin fa-stack-1x"></i>
+                            </span>
+                            <br />
+                            LinkedIn
+                        </div>
+                        <div id="button3" class="animated fadeInUp">
+                            <span class="fa-stack fa-lg" id="hover">
+                                <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                <i class="fa fa-github fa-stack-1x"></i>
+                            </span>
+                            <br />
+                            Github
+                        </div>
+                        <div id="button4" class="animated fadeInUp">
+                            <span class="fa-stack fa-lg" id="hover">
+                                <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                <i class="fa fa-envelope fa-stack-1x"></i>
+                            </span>
+                            <br />
+                            Email
+                        </div>
                     </div>
-                    <div id="button">
-                        <i class="fa fa-github" aria-hidden="true"></i>
-                    </div>
-                    <div id="button">
-                        Nigga
-                        <i class="fa fa-github" aria-hidden="true"></i>
-                    </div>
-                </div>
+            </div>
+            <div class="section" id="section2">
+                            <img src="style/Images/1.png" style="position:absolute; left:0; top:0; width:49%; height:49%;"/>
+                            <img src="style/Images/2.png" style="position:absolute; left:50%; top:0; width:49%; height:49%;"/>
+                            <img src="style/Images/3.png" style="position:absolute; left:0; top:50%; width:49%; height:49%;"/>
+                            <img src="style/Images/4.png" style="position:absolute; left:50%; top:50%; width:49%; height:49%;"/> 
             </div>
         </div>
 
