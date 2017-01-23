@@ -4,7 +4,8 @@ body{
     color: #19405f;
 }
 a{
-    color: none;
+    color: inherit;
+    text-decoration: none;
 }
 #title{
     text-align: center;
@@ -78,7 +79,7 @@ a{
 }
 /*SECTION 2*/
 #section2{
-    background-color: z19405f;
+    background-color: #767676;
 }
 #portfolioImage{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
