@@ -22,7 +22,9 @@
       <script type="text/javascript">
         $(document).ready(function(){
             $('#fullpage').fullpage({
-                navigation: true
+                navigationPosition: 'right',
+                slidesNavPosition: null,
+                
             });      
         });
       </script>
@@ -34,54 +36,68 @@
                 <h1 id="title" class="animated fadeInUp">KV Ghumaan</h1>
                     <div id="buttons">
                         <div id="button1" class="animated fadeInUp">
-                            <span class="fa-stack fa-lg" id="hover">
-                                <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                                <i class="fa fa-file fa-stack-1x"></i>
-                            </span>
+                            <a href="KvsResume.pdf">
+                                <span class="fa-stack fa-lg" id="hover">
+                                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                    <i class="fa fa-file fa-stack-1x"></i>
+                                </span>
+                            </a>
                             <br />
+                            <div id="handle">
                             Resume
+                            </div>
                         </div>
                         <div id="button2" class="animated fadeInUp">
-                            <span class="fa-stack fa-lg" id="hover">
-                                <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                                <i class="fa fa-linkedin fa-stack-1x"></i>
-                            </span>
+                            <a href="https://www.linkedin.com/in/kv-ghumaan-132863a3">
+                                <span class="fa-stack fa-lg" id="hover">
+                                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x"></i>
+                                </span>
+                            </a>
                             <br />
+                            <div id="handle">
                             LinkedIn
+                            </div>
                         </div>
                         <div id="button3" class="animated fadeInUp">
-                            <span class="fa-stack fa-lg" id="hover">
-                                <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                                <i class="fa fa-github fa-stack-1x"></i>
-                            </span>
+                            <a href="https://github.com/kghumaan">
+                                <span class="fa-stack fa-lg" id="hover">
+                                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                    <i class="fa fa-github-alt fa-stack-1x"></i>
+                                </span>
+                            </a>
                             <br />
+                            <div id="handle">
                             Github
+                            </div>
                         </div>
                         <div id="button4" class="animated fadeInUp">
-                            <span class="fa-stack fa-lg" id="hover">
-                                <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                                <i class="fa fa-envelope fa-stack-1x"></i>
-                            </span>
+                            <a href="mailto:kghumaan@iu.edu">
+                                <span class="fa-stack fa-lg" id="hover">
+                                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                    <i class="fa fa-envelope-open-o fa-stack-1x"></i>
+                                </span>
+                            </a>
                             <br />
+                            <div id="handle">
                             Email
+                            </div>
                         </div>
                     </div>
             </div>
             <div class="section" id="section2">
-                <div id="title2">PORTFOLIO</div>
-                <div class="hover">
-                    <img src="style/Images/1.png" class="portfolioImage" style="position:absolute; left:0; top:0; width:49%; height:49%; z-index: 1;"/>
+                <div class="slide">
+                    <img src="style/Images/1.png" class="animated fadeInUp" id="portfolioImage"/>
                 </div>
-                <div class="hover">
-                    <img src="style/Images/2.png" class="portfolioImage" style="position:absolute; left:50%; top:0; width:49%; height:49%; z-index: 1;"/>
+                <div class="slide">
+                    <img src="style/Images/2.png" class="animated fadeInRight" id="portfolioImage"/>
                 </div>
-                <div class="hover">
-                    <img src="style/Images/3.png" class="portfolioImage" style="position:absolute; left:0; top:50%; width:49%; height:49%; z-index: 1;"/>
+                <div class="slide">
+                    <img src="style/Images/3.png" class="animated fadeInLeft" id="portfolioImage"/>
                 </div>
-                <div class="hover">
-                    <img src="style/Images/4.png" class="portfolioImage" style="position:absolute; left:50%; top:50%; width:49%; height:49%; z-index: 1;"/> 
+                <div class="slide">
+                    <img src="style/Images/4.png" class="animated fadeInRight" id="portfolioImage"/> 
                 </div>
-                    
             </div>
         </div>
 
